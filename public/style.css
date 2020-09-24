@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial, Helvetica;
+}
+body {
+    background: #EDF5E1;
+}
+nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #5CDb95;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li, nav a {
+    position: relative;
+    float: left;
+}
+nav .logo {
+    background: #8EE4AF;
+}
+nav li a, nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+nav li a:hover {
+    border-bottom:2px solid #379683;
+}
+div.container {
+    max-width: 800px;
+    justify-content: center;
+    margin: 50px 20px 20px 50px;
+    margin: 50px auto;
+}
+.exam_form form {
+    width: 100%;
+}
+.exam_form .row100 {
+    width: 100%;
+    display: flex;
+}
+.exam_form .row100 .input50 {
+    width: 50%;
+    margin: 0 20px; 
+}
+.exam_form .row100 .input100 {
+    display:block;
+    width: 100%;
+    margin: 0 20px; 
+}
+.exam_form .row100 input {
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #05386B;
+    color: #000;
+    background: transparent;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+    resize: none;
+}
+.exam_form .row100 input[type="submit"] {
+    background: #5CDb95;
+    color: #05386B;
+    max-width: 200px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 500;
+    border:none;
+}
+.alert-success {
+    background: #98FB98; 
+    color: #000;
+    font-size: 13px;
+    width: 25%;
+    margin-top:10px;
+}
+.alert-danger {
+    background: #f44336; 
+    color: white;
+    font-size: 13px;
+    width: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px auto 0;
+    font-size: 15px;
+    color: #05386B;
+    border-radius: 10px;
+    
+  }
+table thead {
+    background-color: #05386B;
+    color: #EDF5E1;
+}
+table th, table td {
+    border: 1px solid #5cdb5c;
+    padding: 5px 10px;
+}
+
+.edit {
+    color:#fff;
+    padding: 2px 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:10px;
+    background: #4CAF50;
+}
+.delete {
+    color:#fff;
+    padding: 2px 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:10px;
+    background: #f44336;
+}
